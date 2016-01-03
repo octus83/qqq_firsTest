@@ -36,7 +36,7 @@ namespace TestBay.Utils
                 throw new ArgumentNullException("source");
             }
 
-            return "somethinggg";
+            return "something";
         }
     }
 }

@@ -1,1 +1,2 @@
 D:\GLX-Projekte\Repositories\TestBay\TestBay\TestBay\bin\Release\TestBay.exe.config
+C:\Users\mpfingsten\Documents\qqq_firsTest\TestBay\bin\Release\TestBay.exe.config

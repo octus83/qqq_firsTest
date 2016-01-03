@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d42d2bf4-9343-4bb1-92d0-c36ff7a5b64e" name="SYSTEM@N005509 2016-01-03 14:04:45" runUser="NT-AUTORITÄT\SYSTEM" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2016-01-03T14:04:45.9686835+01:00" queuing="2016-01-03T14:04:45.9686835+01:00" start="2016-01-03T14:04:45.9736835+01:00" finish="2016-01-03T14:04:46.0346835+01:00" />
+  <TestSettings name="default" id="b2ebeffd-99b5-4fba-b4f5-f19705f92b32">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="SYSTEM_N005509 2016-01-03 14_04_45" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="c27cd40b-5234-4f77-967c-06550cb52f25" testId="07243591-7f0e-4593-b456-6795ff7ae895" testName="OrderedTest1" computerName="N005509" duration="00:00:00.3119578" startTime="2016-01-03T14:04:45.4186835+01:00" endTime="2016-01-03T14:04:45.7476835+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c27cd40b-5234-4f77-967c-06550cb52f25" />
+    <UnitTestResult executionId="a06311f6-69da-4584-a1bc-d5e719466b1b" testId="daee2cea-bcbe-4f91-ad13-13f4edaf4901" testName="1- MathUtil_TestIncrement (OrderedTest1)" computerName="N005509" duration="00:00:00.0167519" startTime="2016-01-03T13:04:45.4346835+01:00" endTime="2016-01-03T13:04:45.6746835+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a06311f6-69da-4584-a1bc-d5e719466b1b" />
+    <UnitTestResult executionId="fe11c727-ecc1-45f9-9fdd-8020f8822395" testId="a5d55020-e44d-448c-8025-d75da524d1d3" testName="2- StringUtil_GetStringBetween (OrderedTest1)" computerName="N005509" duration="00:00:00.0651999" startTime="2016-01-03T13:04:45.6776835+01:00" endTime="2016-01-03T13:04:45.7466835+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe11c727-ecc1-45f9-9fdd-8020f8822395">
+      <Output>
+        <ErrorInfo>
+          <Message>Fehler bei "Assert.AreEqual". Erwartet:&lt;something&gt;. Tatsächlich:&lt;somethinggg&gt;. </Message>
+          <StackTrace>   bei TestBay_Test.TestStringUtils.StringUtil_GetStringBetween() in c:\Users\mpfingsten\Documents\qqq_firsTest\TestBay_Test\TestStringUtil.cs:Zeile 13.
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="OrderedTest1" storage="c:\users\mpfingsten\documents\qqq_firstest\testbay_test\orderedtest1.orderedtest" id="07243591-7f0e-4593-b456-6795ff7ae895">
+      <Execution id="c27cd40b-5234-4f77-967c-06550cb52f25" />
+      <TestMethod codeBase="C:\Users\mpfingsten\Documents\qqq_firsTest\TestBay_Test\OrderedTest1.orderedTest" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="c:\users\mpfingsten\documents\qqq_firstest\testbay_test\orderedtest1" name="OrderedTest1" />
+    </UnitTest>
+    <UnitTest name="1- MathUtil_TestIncrement (OrderedTest1)" storage="c:\users\mpfingsten\documents\qqq_firstest\testbay_test\orderedtest1.orderedtest" id="daee2cea-bcbe-4f91-ad13-13f4edaf4901">
+      <Execution id="a06311f6-69da-4584-a1bc-d5e719466b1b" />
+      <TestMethod codeBase="C:\Users\mpfingsten\Documents\qqq_firsTest\TestBay_Test\OrderedTest1.orderedTest" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="c:\users\mpfingsten\documents\qqq_firstest\testbay_test\orderedtest1" name="1- MathUtil_TestIncrement (OrderedTest1)" />
+    </UnitTest>
+    <UnitTest name="2- StringUtil_GetStringBetween (OrderedTest1)" storage="c:\users\mpfingsten\documents\qqq_firstest\testbay_test\orderedtest1.orderedtest" id="a5d55020-e44d-448c-8025-d75da524d1d3">
+      <Execution id="fe11c727-ecc1-45f9-9fdd-8020f8822395" />
+      <TestMethod codeBase="C:\Users\mpfingsten\Documents\qqq_firsTest\TestBay_Test\OrderedTest1.orderedTest" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="c:\users\mpfingsten\documents\qqq_firstest\testbay_test\orderedtest1" name="2- StringUtil_GetStringBetween (OrderedTest1)" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="07243591-7f0e-4593-b456-6795ff7ae895" executionId="c27cd40b-5234-4f77-967c-06550cb52f25" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="daee2cea-bcbe-4f91-ad13-13f4edaf4901" executionId="a06311f6-69da-4584-a1bc-d5e719466b1b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5d55020-e44d-448c-8025-d75da524d1d3" executionId="fe11c727-ecc1-45f9-9fdd-8020f8822395" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Nicht in einer Liste enthaltene Ergebnisse" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Alle geladenen Ergebnisse" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="1" failed="2" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>Test 'OrderedTest1' wurde während des Testlaufs abgebrochen.</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="N005509" outcome="Warning" timestamp="2016-01-03T14:04:44.2256835+01:00">
+        <Text>Meldung des Adapters für diagnostische Daten: Diagnosedatenadapter 'Code Coverage' wurde nicht gefunden. Stellen Sie sicher, dass der Diagnosedatenadapter installiert ist, und wiederholen Sie den Vorgang.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>
