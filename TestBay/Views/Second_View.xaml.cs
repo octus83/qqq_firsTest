@@ -34,9 +34,9 @@ namespace TestBay.Views
 
         #endregion
 
-        public static string GetViewName()
+        public static new string GetViewName()
         {
-            return "SecondView";
+            return "SecondView2";
         }
     }
 }
