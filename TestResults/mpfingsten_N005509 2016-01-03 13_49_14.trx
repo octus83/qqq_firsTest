@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="fcdd30e0-4107-49ef-9af0-6e7732893df8" name="mpfingsten@N005509 2016-01-03 13:49:14" runUser="GREYLOGIX\mpfingsten" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="default" id="2d1a69c3-ca31-43f6-9635-ec09cd7debbc">
+    <Deployment userDeploymentRoot="D:\GLX-Projekte\Repositories\TestBay\TestBay\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="mpfingsten_N005509 2016-01-03 13_49_14">
+      <DeploymentItem filename="D:\GLX-Projekte\Repositories\QQQ_FirstTest\TestBay\obj\Release\TestBay.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2016-01-03T13:49:14.0230904+01:00" queuing="2016-01-03T13:49:14.4241305+01:00" start="2016-01-03T13:49:14.5541435+01:00" finish="2016-01-03T13:49:14.9941875+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="10" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="8" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="N005509" outcome="Warning" timestamp="2016-01-03T13:49:14.2001081+01:00">
+        <Text>Warnung: Konflikt während der Testlaufbereitstellung: Bereitstellungselement "d:\glx-projekte\repositories\qqq_firsttest\testbay_test\bin\debug\TestBay.exe" mit direktem oder indirektem Verweis von der Testcontainer "d:\glx-projekte\repositories\qqq_firsttest\testbay_test\bin\debug\testbay_test.dll" kann nicht für "TestBay.exe" bereitgestellt werden, da andernfalls "Bereitstellungselement "D:\GLX-Projekte\Repositories\QQQ_FirstTest\TestBay\obj\Release\TestBay.exe" mit direktem oder indirektem Verweis von D:\GLX-Projekte\Repositories\QQQ_FirstTest\TestBay_Test\bin\Release\TestBay_Test.dll" durch die Datei "d:\glx-projekte\repositories\qqq_firsttest\testbay_test\bin\debug\TestBay.exe" überschreiben wird.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestFirstViewModel" storage="d:\glx-projekte\repositories\qqq_firsttest\testbay_test\bin\debug\testbay_test.dll" id="fb80c506-e508-2a5d-b96b-de5cd8308a35">
+      <TestMethod codeBase="D:/GLX-Projekte/Repositories/QQQ_FirstTest/TestBay_Test/bin/Debug/TestBay_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestBay_Test.TestViewModels, TestBay_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestFirstViewModel" />
+    </UnitTest>
+    <UnitTest name="StringUtil_GetStringBetween" storage="d:\glx-projekte\repositories\qqq_firsttest\testbay_test\bin\debug\testbay_test.dll" id="613a6edc-f246-f065-68bd-5f1a1939b4a3">
+      <TestMethod codeBase="D:/GLX-Projekte/Repositories/QQQ_FirstTest/TestBay_Test/bin/Debug/TestBay_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestBay_Test.TestStringUtils, TestBay_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StringUtil_GetStringBetween" />
+    </UnitTest>
+    <UnitTest name="MathUtil_TestIncrement" storage="d:\glx-projekte\repositories\qqq_firsttest\testbay_test\bin\debug\testbay_test.dll" id="26b8bc49-ba39-7fcc-01fc-b825bf62532a">
+      <TestMethod codeBase="D:/GLX-Projekte/Repositories/QQQ_FirstTest/TestBay_Test/bin/Debug/TestBay_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestBay_Test.TestMathUtils, TestBay_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MathUtil_TestIncrement" />
+    </UnitTest>
+    <OrderedTest name="orderedtest1" storage="d:\glx-projekte\repositories\qqq_firsttest\testbay_test\orderedtest1.orderedtest" id="abd87d6d-bdea-4747-83c0-796bb2465d2a">
+      <Execution id="96289e53-58f9-4015-ac45-e69d1b45f41b" />
+      <TestLinks>
+        <TestLink id="26b8bc49-ba39-7fcc-01fc-b825bf62532a" name="MathUtil_TestIncrement" storage="bin\debug\testbay_test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="26b8bc49-ba39-7fcc-01fc-b825bf62532a" name="MathUtil_TestIncrement" storage="bin\debug\testbay_test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="26b8bc49-ba39-7fcc-01fc-b825bf62532a" name="MathUtil_TestIncrement" storage="bin\debug\testbay_test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="26b8bc49-ba39-7fcc-01fc-b825bf62532a" name="MathUtil_TestIncrement" storage="bin\debug\testbay_test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="613a6edc-f246-f065-68bd-5f1a1939b4a3" name="StringUtil_GetStringBetween" storage="bin\debug\testbay_test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="613a6edc-f246-f065-68bd-5f1a1939b4a3" name="StringUtil_GetStringBetween" storage="bin\debug\testbay_test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="613a6edc-f246-f065-68bd-5f1a1939b4a3" name="StringUtil_GetStringBetween" storage="bin\debug\testbay_test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="fb80c506-e508-2a5d-b96b-de5cd8308a35" name="TestFirstViewModel" storage="bin\debug\testbay_test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="fb80c506-e508-2a5d-b96b-de5cd8308a35" name="TestFirstViewModel" storage="bin\debug\testbay_test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </OrderedTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Nicht in einer Liste enthaltene Ergebnisse" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Alle geladenen Ergebnisse" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="abd87d6d-bdea-4747-83c0-796bb2465d2a" executionId="96289e53-58f9-4015-ac45-e69d1b45f41b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <TestEntries>
+        <TestEntry testId="26b8bc49-ba39-7fcc-01fc-b825bf62532a" executionId="ceb75ca9-50d3-46a4-b98c-dd4c1a41e876" parentExecutionId="96289e53-58f9-4015-ac45-e69d1b45f41b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="26b8bc49-ba39-7fcc-01fc-b825bf62532a" executionId="ec9387b6-429d-4b47-9518-4eb5c0d10d2d" parentExecutionId="96289e53-58f9-4015-ac45-e69d1b45f41b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="26b8bc49-ba39-7fcc-01fc-b825bf62532a" executionId="7805577b-6201-43af-a401-253c8e09c227" parentExecutionId="96289e53-58f9-4015-ac45-e69d1b45f41b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="26b8bc49-ba39-7fcc-01fc-b825bf62532a" executionId="7a4cf50e-1eff-4aad-88ba-da0ac8e69b60" parentExecutionId="96289e53-58f9-4015-ac45-e69d1b45f41b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="613a6edc-f246-f065-68bd-5f1a1939b4a3" executionId="1382dfe8-7a9a-4c25-8511-19906b616de8" parentExecutionId="96289e53-58f9-4015-ac45-e69d1b45f41b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="613a6edc-f246-f065-68bd-5f1a1939b4a3" executionId="3de5b93e-fa31-4d60-8f8f-b5d7f5dd2b62" parentExecutionId="96289e53-58f9-4015-ac45-e69d1b45f41b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="613a6edc-f246-f065-68bd-5f1a1939b4a3" executionId="11be9f86-b023-4b03-9dbd-58eeeb4f45da" parentExecutionId="96289e53-58f9-4015-ac45-e69d1b45f41b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="fb80c506-e508-2a5d-b96b-de5cd8308a35" executionId="83103855-562d-4a46-bf4e-5a388972adc9" parentExecutionId="96289e53-58f9-4015-ac45-e69d1b45f41b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="fb80c506-e508-2a5d-b96b-de5cd8308a35" executionId="7a2c7d4d-81f5-47d9-a228-6a50d5238cd1" parentExecutionId="96289e53-58f9-4015-ac45-e69d1b45f41b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+      </TestEntries>
+    </TestEntry>
+  </TestEntries>
+  <Results>
+    <TestResultAggregation executionId="96289e53-58f9-4015-ac45-e69d1b45f41b" testId="abd87d6d-bdea-4747-83c0-796bb2465d2a" testName="orderedtest1" computerName="N005509" duration="00:00:00.3052477" startTime="2016-01-03T13:49:14.5841465+01:00" endTime="2016-01-03T13:49:14.9101791+01:00" testType="ec4800e8-40e5-4ab3-8510-b8bf29b1904d" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96289e53-58f9-4015-ac45-e69d1b45f41b">
+      <Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="8" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="ceb75ca9-50d3-46a4-b98c-dd4c1a41e876" parentExecutionId="96289e53-58f9-4015-ac45-e69d1b45f41b" testId="26b8bc49-ba39-7fcc-01fc-b825bf62532a" testName="MathUtil_TestIncrement" computerName="N005509" duration="00:00:00.1014078" startTime="2016-01-03T13:49:14.6041485+01:00" endTime="2016-01-03T13:49:14.9071788+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ceb75ca9-50d3-46a4-b98c-dd4c1a41e876">
+          <Output>
+            <ErrorInfo>
+              <Message>Fehler bei "Assert.AreEqual". Erwartet:&lt;9&gt;. Tatsächlich:&lt;-1&gt;. </Message>
+              <StackTrace>   bei TestBay_Test.TestMathUtils.MathUtil_TestIncrement() in d:\GLX-Projekte\Repositories\TestBay\TestBay\TestBay_Test\TestMathUtils.cs:Zeile 22.
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <TestResult executionId="ec9387b6-429d-4b47-9518-4eb5c0d10d2d" parentExecutionId="96289e53-58f9-4015-ac45-e69d1b45f41b" testId="26b8bc49-ba39-7fcc-01fc-b825bf62532a" testName="MathUtil_TestIncrement" computerName="N005509" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec9387b6-429d-4b47-9518-4eb5c0d10d2d" />
+        <TestResult executionId="7805577b-6201-43af-a401-253c8e09c227" parentExecutionId="96289e53-58f9-4015-ac45-e69d1b45f41b" testId="26b8bc49-ba39-7fcc-01fc-b825bf62532a" testName="MathUtil_TestIncrement" computerName="N005509" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7805577b-6201-43af-a401-253c8e09c227" />
+        <TestResult executionId="7a4cf50e-1eff-4aad-88ba-da0ac8e69b60" parentExecutionId="96289e53-58f9-4015-ac45-e69d1b45f41b" testId="26b8bc49-ba39-7fcc-01fc-b825bf62532a" testName="MathUtil_TestIncrement" computerName="N005509" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a4cf50e-1eff-4aad-88ba-da0ac8e69b60" />
+        <TestResult executionId="1382dfe8-7a9a-4c25-8511-19906b616de8" parentExecutionId="96289e53-58f9-4015-ac45-e69d1b45f41b" testId="613a6edc-f246-f065-68bd-5f1a1939b4a3" testName="StringUtil_GetStringBetween" computerName="N005509" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1382dfe8-7a9a-4c25-8511-19906b616de8" />
+        <TestResult executionId="3de5b93e-fa31-4d60-8f8f-b5d7f5dd2b62" parentExecutionId="96289e53-58f9-4015-ac45-e69d1b45f41b" testId="613a6edc-f246-f065-68bd-5f1a1939b4a3" testName="StringUtil_GetStringBetween" computerName="N005509" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3de5b93e-fa31-4d60-8f8f-b5d7f5dd2b62" />
+        <TestResult executionId="11be9f86-b023-4b03-9dbd-58eeeb4f45da" parentExecutionId="96289e53-58f9-4015-ac45-e69d1b45f41b" testId="613a6edc-f246-f065-68bd-5f1a1939b4a3" testName="StringUtil_GetStringBetween" computerName="N005509" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11be9f86-b023-4b03-9dbd-58eeeb4f45da" />
+        <TestResult executionId="83103855-562d-4a46-bf4e-5a388972adc9" parentExecutionId="96289e53-58f9-4015-ac45-e69d1b45f41b" testId="fb80c506-e508-2a5d-b96b-de5cd8308a35" testName="TestFirstViewModel" computerName="N005509" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83103855-562d-4a46-bf4e-5a388972adc9" />
+        <TestResult executionId="7a2c7d4d-81f5-47d9-a228-6a50d5238cd1" parentExecutionId="96289e53-58f9-4015-ac45-e69d1b45f41b" testId="fb80c506-e508-2a5d-b96b-de5cd8308a35" testName="TestFirstViewModel" computerName="N005509" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a2c7d4d-81f5-47d9-a228-6a50d5238cd1" />
+      </InnerResults>
+    </TestResultAggregation>
+  </Results>
+</TestRun>
