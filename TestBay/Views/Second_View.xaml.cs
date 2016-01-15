@@ -36,7 +36,7 @@ namespace TestBay.Views
 
         public static new string GetViewName()
         {
-            return "SecondView2";
+            return "SecondView";
         }
     }
 }

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\GLX-Projekte\Repositories\TestBay\TestBay\TestBay\obj\Debug\
+D:\GLX-Projekte\Repositories\QQQ_TestBay_Jenkins\TestBay\obj\Debug\
 TestBay
 none
 false
 DEBUG;TRACE
-D:\GLX-Projekte\Repositories\TestBay\TestBay\TestBay\App.xaml
+D:\GLX-Projekte\Repositories\QQQ_TestBay_Jenkins\TestBay\App.xaml
 3-1876392728
 
 191072917977
 12-1401562060
 MainWindow.xaml;Views\First_View.xaml;Views\Second_View.xaml;
 
-False
+True
 
