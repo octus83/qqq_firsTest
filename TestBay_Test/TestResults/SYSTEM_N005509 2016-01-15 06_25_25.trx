@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9a8856cb-3234-4b36-ae88-99c912702094" name="SYSTEM@N005509 2016-01-15 06:25:25" runUser="NT-AUTORITÄT\SYSTEM" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2016-01-15T06:25:25.9073520+01:00" queuing="2016-01-15T06:25:25.9073520+01:00" start="2016-01-15T06:25:25.9073520+01:00" finish="2016-01-15T06:25:25.9833572+01:00" />
+  <TestSettings name="default" id="d9022959-1ab2-44d5-9135-404c2747af2c">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="SYSTEM_N005509 2016-01-15 06_25_25" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="71a6a28c-540d-40be-9a3c-8decafcd2381" testId="07243591-7f0e-4593-b456-6795ff7ae895" testName="OrderedTest1" computerName="N005509" duration="00:00:00.3320652" startTime="2016-01-15T06:25:25.2933114+01:00" endTime="2016-01-15T06:25:25.6533358+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71a6a28c-540d-40be-9a3c-8decafcd2381" />
+    <UnitTestResult executionId="623f2cef-37dd-498f-8166-f01113c0f64e" testId="c19f7b6d-69bf-41e3-ad14-b6116faadfdd" testName="1- MathUtil_TestIncrement (OrderedTest1)" computerName="N005509" duration="00:00:00.0350162" startTime="2016-01-15T05:25:25.3263139+01:00" endTime="2016-01-15T05:25:25.5973314+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="623f2cef-37dd-498f-8166-f01113c0f64e" />
+    <UnitTestResult executionId="364c4c0f-9ab1-4113-a0f9-6693d641736b" testId="9dbe8ffb-a74a-4b81-adf6-f6a86e20f2a9" testName="2- StringUtil_GetStringBetween (OrderedTest1)" computerName="N005509" duration="00:00:00.0024806" startTime="2016-01-15T05:25:25.5993316+01:00" endTime="2016-01-15T05:25:25.6123329+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="364c4c0f-9ab1-4113-a0f9-6693d641736b" />
+    <UnitTestResult executionId="6492dfd3-89aa-4497-958c-8ca2fe0147c2" testId="1e55062d-2e18-4e45-b902-a9226950ec99" testName="3- TestFirstViewModel (OrderedTest1)" computerName="N005509" duration="00:00:00.0209214" startTime="2016-01-15T05:25:25.6123329+01:00" endTime="2016-01-15T05:25:25.6533358+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6492dfd3-89aa-4497-958c-8ca2fe0147c2" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="OrderedTest1" storage="c:\users\mpfingsten\documents\qqq_firstest\testbay_test\orderedtest1.orderedtest" id="07243591-7f0e-4593-b456-6795ff7ae895">
+      <Execution id="71a6a28c-540d-40be-9a3c-8decafcd2381" />
+      <TestMethod codeBase="C:\Users\mpfingsten\Documents\qqq_firsTest\TestBay_Test\OrderedTest1.orderedTest" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="c:\users\mpfingsten\documents\qqq_firstest\testbay_test\orderedtest1" name="OrderedTest1" />
+    </UnitTest>
+    <UnitTest name="1- MathUtil_TestIncrement (OrderedTest1)" storage="c:\users\mpfingsten\documents\qqq_firstest\testbay_test\orderedtest1.orderedtest" id="c19f7b6d-69bf-41e3-ad14-b6116faadfdd">
+      <Execution id="623f2cef-37dd-498f-8166-f01113c0f64e" />
+      <TestMethod codeBase="C:\Users\mpfingsten\Documents\qqq_firsTest\TestBay_Test\OrderedTest1.orderedTest" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="c:\users\mpfingsten\documents\qqq_firstest\testbay_test\orderedtest1" name="1- MathUtil_TestIncrement (OrderedTest1)" />
+    </UnitTest>
+    <UnitTest name="2- StringUtil_GetStringBetween (OrderedTest1)" storage="c:\users\mpfingsten\documents\qqq_firstest\testbay_test\orderedtest1.orderedtest" id="9dbe8ffb-a74a-4b81-adf6-f6a86e20f2a9">
+      <Execution id="364c4c0f-9ab1-4113-a0f9-6693d641736b" />
+      <TestMethod codeBase="C:\Users\mpfingsten\Documents\qqq_firsTest\TestBay_Test\OrderedTest1.orderedTest" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="c:\users\mpfingsten\documents\qqq_firstest\testbay_test\orderedtest1" name="2- StringUtil_GetStringBetween (OrderedTest1)" />
+    </UnitTest>
+    <UnitTest name="3- TestFirstViewModel (OrderedTest1)" storage="c:\users\mpfingsten\documents\qqq_firstest\testbay_test\orderedtest1.orderedtest" id="1e55062d-2e18-4e45-b902-a9226950ec99">
+      <Execution id="6492dfd3-89aa-4497-958c-8ca2fe0147c2" />
+      <TestMethod codeBase="C:\Users\mpfingsten\Documents\qqq_firsTest\TestBay_Test\OrderedTest1.orderedTest" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="c:\users\mpfingsten\documents\qqq_firstest\testbay_test\orderedtest1" name="3- TestFirstViewModel (OrderedTest1)" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="07243591-7f0e-4593-b456-6795ff7ae895" executionId="71a6a28c-540d-40be-9a3c-8decafcd2381" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c19f7b6d-69bf-41e3-ad14-b6116faadfdd" executionId="623f2cef-37dd-498f-8166-f01113c0f64e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9dbe8ffb-a74a-4b81-adf6-f6a86e20f2a9" executionId="364c4c0f-9ab1-4113-a0f9-6693d641736b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e55062d-2e18-4e45-b902-a9226950ec99" executionId="6492dfd3-89aa-4497-958c-8ca2fe0147c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Nicht in einer Liste enthaltene Ergebnisse" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Alle geladenen Ergebnisse" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="N005509" outcome="Warning" timestamp="2016-01-15T06:25:22.8971490+01:00">
+        <Text>Meldung des Adapters für diagnostische Daten: Diagnosedatenadapter 'Code Coverage' wurde nicht gefunden. Stellen Sie sicher, dass der Diagnosedatenadapter installiert ist, und wiederholen Sie den Vorgang.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>
